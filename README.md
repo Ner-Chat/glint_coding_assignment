@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Ner Chat Coding Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Ner Chat coding assignment! This challenge is designed to evaluate your React debugging and styling skills.
 
-## Available Scripts
+**Expected time:** ~1 hour for experienced developers
 
-In the project directory, you can run:
+**Tools:** Feel free to use any IDE of your choice. You're also welcome to use AI coding tools like Cursor or Claude Code — we encourage efficient development!
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+npm run dev
+```
 
-### `npm test`
+This will start the dev server at [http://localhost:3000](http://localhost:3000).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## The Challenge
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+There are **4 tasks** to complete:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Task | Description |
+|------|-------------|
+| 1 | Fix the broken text input |
+| 2 | Fix the focus issue |
+| 3 | Add a delete confirmation dialog |
+| 4 | Redesign the page with Tailwind |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Task 1: Fix the broken text input
 
-### `npm run eject`
+The first text input doesn't update when you type. Find and fix the bug.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Task 2: Fix the focus issue
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The second text input loses focus after every keystroke. Find and fix the bug.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Task 3: Add a delete confirmation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+When clicking the X button to delete a row, a confirmation dialog should appear asking "Are you sure you want to delete this row?" Feel free to create a custom component or use a library.
 
-## Learn More
+### Task 4: Make it look nice
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The page is currently plain HTML. Use Tailwind CSS to redesign the entire page — we'd love to see your design skills! Some ideas to consider:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Background colors or themes
+- Proper visual hierarchy and spacing
+- Modern, polished UI components
+- Micro-interactions or animations
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## What We're Looking For
 
-### Analyzing the Bundle Size
+- Clean, readable code
+- Thoughtful UI/UX decisions
+- Problem-solving approach
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Submission
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+When you're done, please submit your solution using one of these methods:
 
-### Advanced Configuration
+1. **Email a zip file** of your completed project (excluding `node_modules`)
+2. **Create a private GitHub repository** and invite [@scottsoif](https://github.com/scottsoif) as a collaborator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Please ensure your submission includes all source files and any additional documentation you think would be helpful.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good luck!
